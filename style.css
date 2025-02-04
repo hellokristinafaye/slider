@@ -10,6 +10,8 @@
     width: 550px;
     position: relative;
 }
+
+/* Slide 1 Images Start */
 .pic-one {
     width: 100%;
 }
@@ -44,6 +46,7 @@
     bottom: 35px;
 }
 
+/* Slide 1 Images End */
 
 
 
@@ -78,9 +81,37 @@
 .slide-two h1, .slide-two p {
     color: #feb154;
 }
+
+/* Slide 2 images start */
 .img-one {
     width: 100%;
 }
+.img-two {
+    width: 200px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.img-three {
+    width: 70px;
+    position: absolute;
+    left: 245px;
+    bottom: 55px;
+}
+.img-four {
+    width: 60px;
+    position: absolute;
+    right: 155px;
+    bottom: 95px;
+}
+.img-five {
+    width: 100px;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+/* Slide 2 images end */
+
 .slide-two button {
     background: linear-gradient(to right, #feb154, #ffd255);
 }
