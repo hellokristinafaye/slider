@@ -5,5 +5,13 @@
 }
 .carousel-item {
     height: 100vh;
-    
+}
+.img-box {
+    width: 550px;
+}
+.pic-one {
+    width: 100%;
+}
+.slide-one {
+    background: #b0c6f5;
 }
