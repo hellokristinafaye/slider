@@ -46,3 +46,6 @@
 .img-one {
     width: 100%;
 }
+.slide-two button {
+    background: linear-gradient(to right, #feb154, #ffd255);
+}
