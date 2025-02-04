@@ -32,7 +32,7 @@
                             styles to appropriately size content. While carousels support previous/next controls and indicators, they’re not
                             explicitly required. Add and customize as you see fit.
                             </p>          
-                            <button class="animated jackInTheBox" type="button">Read More</button>                  
+                            <button class="animated jackInTheBox delay-5s " type="button">Read More</button>                  
                         </div>
 
                         <div class="col-md-6">  
@@ -40,8 +40,8 @@
                                 <img src="images/pic-1.png" alt="" class="animated zoomIn pic-one delay-1s	">
                                 <img src="images/pic-2.png" alt="" class="animated fadeInLeft pic-two delay-4s	">
                                 <img src="images/pic-3.png" alt="" class="animated fadeInUp pic-three delay-3s">
-                                <img src="images/pic-4.png" alt="" class="animated fadeInDown pic-four delay-4s">
-                                <img src="images/pic-5.png" alt="" class="animated fadeInRight pic-five delay-1s">
+                                <img src="images/pic-4.png" alt="" class="animated fadeInDown pic-four delay-3s">
+                                <img src="images/pic-5.png" alt="" class="animated fadeInRight pic-five delay-4s">
                                 <img src="images/pic-6.png" alt="" class="animated jackInTheBox pic-six delay-5s">
                             </div>       
                                             
@@ -56,23 +56,23 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <h1 class="animated fadeInLeft">Learn Graphic Design</h1>
-                            <p class="animated lightSpeedIn">Carousels don’t automatically normalize slide dimensions. As such, you may need to use
+                            <h1 class="animated fadeInLeft delay-1s">Learn Graphic Design</h1>
+                            <p class="animated lightSpeedIn delay-2s">Carousels don’t automatically normalize slide dimensions. As such, you may need to use
                                 additional utilities or custom
                                 styles to appropriately size content. While carousels support previous/next controls and indicators,
                                 they’re not
                                 explicitly required. Add and customize as you see fit.
                             </p>
-                            <button class="animated jackInTheBox" type="button">Read More</button>
+                            <button class="animated jackInTheBox delay-5s " type="button">Read More</button>
                         </div>
                 
                         <div class="col-md-6">
                             <div class="img-box">
-                                <img src="images/img-1.png" alt="" class="animated zoomIn img-one">
-                                <img src="images/img-2.png" alt="" class="animated fadeInLeft img-two">
-                                <img src="images/img-3.png" alt="" class="animated zoomIn img-three">
-                                <img src="images/img-4.png" alt="" class="animated fadeInDown img-four">
-                                <img src="images/img-5.png" alt="" class="animated fadeInRight img-five">
+                                <img src="images/img-1.png" alt="" class="delay-1s animated zoomIn img-one">
+                                <img src="images/img-2.png" alt="" class="delay-4s animated fadeInLeft img-two">
+                                <img src="images/img-3.png" alt="" class="delay-3s animated zoomIn img-three">
+                                <img src="images/img-4.png" alt="" class="delay-3s animated fadeInDown img-four">
+                                <img src="images/img-5.png" alt="" class="delay-4s animated fadeInRight img-five">
                             </div>
                 
                         </div>
@@ -98,5 +98,10 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script class="">
+        $('.carousel').carousel({
+            interval: 7000
+        })
+    </script>
 </body>
 </html>
