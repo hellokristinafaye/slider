@@ -6,6 +6,7 @@ Technologies Used:
 
 - HTML
 - CSS
+- Bootstrap
 
 Features:
 
